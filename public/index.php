@@ -49,7 +49,7 @@ if (@$_GET['palette'])
 }
 else
 {
-    $palette = 'perler';
+    $palette = 'artkal-c';
 }
 
 if (@$_GET['print'])
@@ -540,7 +540,7 @@ function msort($array, $id="id")
 /* Version:  2.0B                            */
 /*********************************************/
 
-function ImageCreateFromBMP($filename)
+function ImageCreateFromBMP__($filename)
 {
  //Ouverture du fichier en mode binaire
    if (! $f1 = fopen($filename,"rb")) return FALSE;

@@ -1,1 +1,5 @@
 Images go here
+
+but actually, remove images.txt
+
+which means images directory is needed but not this .txt
